@@ -1,0 +1,24 @@
+{
+  "name": "randomname",
+  "version": "0.1.0",
+  "description": "Random name generator",
+  "main": "randomName.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node randomName.js"
+  },
+  "keywords": [
+    "Node.JS",
+    "REST API"
+  ],
+  "author": "John D. Allen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john2exonets/random-name-generator.git"
+  }
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
