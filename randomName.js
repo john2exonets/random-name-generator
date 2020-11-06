@@ -89,7 +89,7 @@ app.get("/name", (req, res, next) => {
 		default:
 			var out = '{"err": "Unsupported Language"}'
 	}
-	
+    res.setHeader('Content-Type', 'application/json')
     res.send(out);
 });
 
